@@ -15,7 +15,7 @@
 
 ## About me
 
-Here some information...
+I'm 30 years old. I worked as a Cloud Engineer for the last 5 years. And I've decided to try myself in Frontend.
 
 *********
 
@@ -24,7 +24,8 @@ Here some information...
 * __HTML__ (Basic)
 * __CSS__ (Basic)
 * __Javascript__ (Basic)
-* __Git__ (Basic)
+* __Git\GitHub__ (Basic)
+* __VS Code, IntelliJ IDEA__
 
 *********
 
