@@ -9,7 +9,7 @@
 * __Location:__ Voronezh, Russia
 * __Phone:__ +7 951 147 48 72
 * __Email:__ pavel.pavlov.edc@gmail.com
-* __GitHub:__ [draftedED][https://github.com/draftedED]
+* __GitHub:__ [draftedED](https://github.com/draftedED)
 
 *********
 
@@ -31,12 +31,9 @@ Here some information...
 ## Code example
 
 ```
-function exp(firstNumber, secondNumber) {
-   return firstNumber ** secondNumber;
+function solution(str, ending){
+  return str.endsWith(ending);
 }
- 
- let operationResult = exp(5, 3);
- console.log(operationResult)
 ```
 
 *********
@@ -50,9 +47,9 @@ function exp(firstNumber, secondNumber) {
 
 ## Courses
 
-* __RS Schools Frontend Course__ (in progress)
-* __HTML Academy on https://htmlacademy.ru/__ (in progress)
-* __HTML + CSS + Javascript on CodeBasics__ (in progress)
+* __RS Schools Frontend Course__ ([RS School](https://rs.school/)) - in progress
+* __HTML Academy__ ([HTMLAcademy](https://htmlacademy.ru/)) - in progress
+* __HTML + CSS + Javascript on CodeBasics__ ([CodeBasics](https://code-basics.com/ru)) - in progress
 
 *********
 
