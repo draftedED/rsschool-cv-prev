@@ -11,22 +11,22 @@
 * __Email:__ pavel.pavlov.edc@gmail.com
 * __GitHub:__ [draftedED][https://github.com/draftedED]
 
-==========================================================================
+*********
 
 ## About me
 
 Here some information...
 
-==========================================================================
+*********
 
 ## Skills
 
-* HTML (Basic)
-* CSS (Basic)
-* Javascript (Basic)
-* Git (Basic)
+* __HTML__ (Basic)
+* __CSS__ (Basic)
+* __Javascript__ (Basic)
+* __Git__ (Basic)
 
-==========================================================================
+*********
 
 ## Code example
 
@@ -39,24 +39,24 @@ function exp(firstNumber, secondNumber) {
  console.log(operationResult)
 ```
 
-==========================================================================
+*********
 
 ## Education
 
-* Voronezh State University
+* __Voronezh State University__
     * Faculty of Computer Science
 
-==========================================================================
+*********
 
 ## Courses
 
-* RS Schools Frontend Course (in progress)
-* HTML Academy on https://htmlacademy.ru/ (in progress)
-* HTML + CSS + Javascript on CodeBasics (in progress)
+* __RS Schools Frontend Course__ (in progress)
+* __HTML Academy on https://htmlacademy.ru/__ (in progress)
+* __HTML + CSS + Javascript on CodeBasics__ (in progress)
 
-==========================================================================
+*********
 
 ## Languages:
 
-* Russian - Native
-* English - Intermediate
+* __Russian__ - Native
+* __English__ - Intermediate
