@@ -14,10 +14,19 @@ a {
 }
 
 .left-container h3 {
-  margin: 2%;
+  margin: 40px auto 20px;
   border: 3px solid black;
   border-radius: 25% 10%;
-  background-color:darkcyan;
+  background-color: darkcyan;
+  text-align: center;
+  width: 180px;
+}
+
+.right-container h3 {
+  margin: 40px auto 20px;
+  border: 3px solid black;
+  border-radius: 25% 10%;
+  background-color: darkcyan;
   text-align: center;
   width: 180px;
 }
@@ -43,17 +52,9 @@ a {
 .left-container {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 40%;
   align-items: center;
   background-color: grey;
-}
-
-.right-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 65%;
-  background-color: cadetblue;
 }
 
 .main-information {
@@ -63,17 +64,106 @@ a {
 .contacts {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-size: 16px;
+}
+
+.contacts ul {
   list-style: none;
+  margin: 5px 10px;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.contacts img {
+  display: inline;
+  vertical-align: middle;
+  margin: 0px 10px 5px 20px;
+}
+
+.language-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.language-content ul {
+  list-style: none;
+  margin: 5px 10px;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  list-style: none;
+}
+
+.skills-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
 }
 
 .skills-content ul {
   list-style: none;
+  margin: 5px 25px;
+  padding: 0;
+  width: 100%;
+  display: inline;
+}
+
+.skills-content img {
+  display: inline;
+  vertical-align: middle;
+  margin: 0px 10px 5px 20px;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  background-color: cadetblue;
+}
+
+.about-me-container {
+  margin: 2px 10px 2px 25px;
+}
+
+.education-container {
+  width: 100%;
+}
+
+.education-container p {
+  margin: 3px 25px;
+}
+
+.courses-container {
+  width: 105%;
+}
+
+.courses-container ul li {
+  margin: 5px 20px;
+}
+
+.code-example-container {
+  margin: 2px 40px;
+  width: 100%;
+}
+
+.code-example-container p {
+  margin: 0px 30px;
 }
 
 pre {
-  border: 2px solid black;
-  border-radius: 25% 25%;
+  border: 3px solid black;
+  border-radius: 25% 10%;
+  margin: 40px;
 }
 
 footer {
