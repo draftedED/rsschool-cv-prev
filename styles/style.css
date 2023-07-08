@@ -1,0 +1,66 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*
+.main-container {
+   margin: 20px auto;
+   width: 1024px;
+   font-size: 18px;
+   line-height: 2;
+   background-color: grey;
+   box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.5);
+}
+*/
+
+.nav-panel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  border: 1px solid black;
+}
+
+.left-right-containers {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+  /* color: darkslategrey; */
+  /* background-color: black; */
+  align-items: center;
+  border: 1px solid black;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 58%;
+  /* color: white; */
+  /* background-color: green; */
+  border: 1px solid black;
+}
+
+.name-content {
+  text-align: center;
+}
+
+.contacts ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  list-style: none;
+}
+
+.skills-content ul {
+  list-style: none;
+}
