@@ -78,9 +78,21 @@
           <div class="language-content">
             <h2>Languages</h2>
             <ul>
-              <li>Russian</li>
-              <li>English</li>
-              <li>Germany</li>
+              <li>
+                Russian
+                <br />
+                <span>Native</span>
+              </li>
+              <li>
+                English
+                <br />
+                <span>Intermediate</span>
+              </li>
+              <li>
+                Germany
+                <br />
+                <span>Basic</span>
+              </li>
             </ul>
           </div>
           <div class="skills-content">
@@ -139,10 +151,121 @@
         </div>
         <div></div>
         <div class="right-container">
-          <h2 id="AboutMe">About me</h2>
+          <div class="about-me-container">
+            <h2>About me</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae labore ratione pariatur, tenetur nemo velit vitae fuga
+              dolorem beatae at quis molestiae nostrum officiis, amet id.
+              Mollitia harum optio iusto?
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
+              voluptatem hic repellendus aperiam, numquam dolores accusantium
+              error, quia dolorem illum ipsum accusamus a molestias unde ea sed
+              quaerat! Velit, voluptatibus!
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+              ullam, possimus doloremque dolorem earum velit dolorum ratione
+              error sunt dolores molestias nemo autem consequatur quasi odio
+              ipsum repudiandae quidem sint?
+            </p>
+          </div>
+          <div class="education-container">
+            <h2>Education</h2>
+            <p>
+              University:
+              <a href="https://www.vsu.ru/english/"
+                >Voronezh State University</a
+              >
+            </p>
+            <p>
+              Faculty:
+              <a href="https://www.vsu.ru/english/depts/cs.html"
+                >Computer Sciences</a
+              >
+            </p>
+            <p>
+              Department:
+              <a
+                href="http://www.cs.vsu.ru/about-faculty/structure-of-faculty/departments/department-of-ct/"
+                >Digital Technology</a
+              >
+            </p>
+            <p>Years: 2010 - 2015</p>
+          </div>
+          <div class="courses-container">
+            <h2>Courses</h2>
+            <ul>
+              <li>
+                HTML and CSS on
+                <a href="https://htmlacademy.ru/">HTML Academy</a>
+              </li>
+              <li>
+                HTML, CSS, Javascript on
+                <a href="https://code-basics.com">CodeBasics</a>
+              </li>
+              <li>
+                Javascript on
+                <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+              </li>
+              <li>
+                CS50 lectures on
+                <a
+                  href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA"
+                  >Youtube</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="code-example-container">
+            <h2>Code Examples</h2>
+            <p>
+              Some code examples from
+              <a href="https://www.codewars.com/users/poweredByEDC">CodeWars</a>
+            </p>
+            <pre>
+              <code>
+                function fakeBin(str){
+                  let result= '';
+                  for (let i = 0; i < str.length; i += 1) {
+                     if(str[i] < 5) {
+                        result += 0;
+                     } else {
+                        result += 1;
+                     }
+                  }
+                  return result;
+               }
+              </code>
+              <code>
+                const finalGrade = (exam, projects) => {
+                  let mark;
+                  if (exam > 90 || projects > 10) {
+                     return mark = 100;
+                  } else if(exam > 75 && projects >= 5) {
+                     return mark = 90;
+                  } else if(exam > 50 && projects >= 2) {
+                     return mark = 75;
+                  } else {
+                     return mark = 0;
+                  }
+               }
+              </code>
+            </pre>
+          </div>
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-panel">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
