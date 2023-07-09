@@ -5,22 +5,32 @@
 }
 
 :root {
-  --main-link-color: #14FFEC;
+  --main-link-color: palevioletred;
 }
 
 body {
   width: 60%;
   margin: 0 auto;
-  background-color: darkgrey;
+  background-color: darkgray;
+}
+
+.nav-panel a{
+  color: white;
+}
+
+footer a {
+  color: white;
 }
 
 a {
   color: var(--main-link-color);
   text-decoration: none;
+  transition: 1s;
 }
 
-.main-information img {
-  border: 3px solid black;
+a:hover {
+  color: palevioletred;
+  font-size: 21px;
 }
 
 .left-container h3 {
@@ -58,6 +68,7 @@ a {
   font-family: "Cinzel";
   font-weight: 700;
   text-decoration: none;
+  height: 30px;
 }
 
 .left-right-containers {
