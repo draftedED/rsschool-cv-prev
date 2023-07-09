@@ -5,13 +5,13 @@
 }
 
 :root {
-  --main-link-color: #E5E5CB;
+  --main-link-color: #14FFEC;
 }
 
 body {
   width: 60%;
   margin: 0 auto;
-  background-color: lightseagreen;
+  background-color: darkgrey;
 }
 
 a {
@@ -25,7 +25,7 @@ a {
 
 .left-container h3 {
   margin: 40px auto 20px;
-  border: 3px solid black;
+  border: 3px solid #f2f3f4;
   border-radius: 25% 10%;
   background-color: darkcyan;
   text-align: center;
@@ -36,7 +36,7 @@ a {
 
 .right-container h3 {
   margin: 40px auto 20px;
-  border: 3px solid white;
+  border: 3px solid #f2f3f4;
   border-radius: 25% 10%;
   background-color: darkcyan;
   text-align: center;
@@ -53,7 +53,7 @@ a {
   list-style: none;
   padding: 20px;
   margin: 0;
-  background-color: #3C2A21;
+  background-color: #212121;
   font-size: 20px;
   font-family: "Cinzel";
   font-weight: 700;
@@ -73,8 +73,8 @@ a {
   flex-direction: column;
   width: 40%;
   align-items: center;
-  background-color: #D5CEA3;
-  color: black;
+  background-color: #323232;
+  color: #f2f3f4;
 }
 
 .main-information {
@@ -147,8 +147,8 @@ a {
   flex-direction: column;
   align-items: center;
   width: 60%;
-  background-color: #3C2A21;
-  color: white;
+  background-color: #212121;
+  color: #f2f3f4;
 }
 
 .about-me-container {
@@ -189,7 +189,7 @@ a {
 }
 
 pre {
-  border: 3px solid black;
+  border: 3px solid #f2f3f4;
   border-radius: 25% 10%;
   margin: 40px;
 }
@@ -203,8 +203,8 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0px 20px;
-  color: black;
-  background-color: white;
+  color: #f2f3f4;
+  background-color: #323232;
   font-family: "Cinzel";
   font-weight: 700;
   font-size: 20px;
